@@ -1,0 +1,98 @@
+.offer{
+    width: 100%;
+    min-height: 70rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* background-color: antiquewhite; */
+    background-color: white;
+    padding: 2rem;
+    overflow-x: hidden;
+    
+}
+
+.or{
+    width: 85rem;
+    height: 35rem;
+    margin-top: 3rem;
+    padding: 1rem;
+    display: flex;
+}
+
+.oimg{
+    width: 40%;
+    height: 100%;
+    border-radius: 1rem;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+    /* border-top-left-radius: 1rem;
+    border-bottom-right-radius: 2rem; */
+}
+
+.otext{
+    width: 45%;
+    height: 100%;
+    /* border: 2px solid black; */
+    padding: 1rem;
+    font-family: 'Open Sans';
+}
+
+.oimg1{
+    background-image: url('../../../img/o1.jpg');
+    background-size: cover;
+}
+
+.oimg2{
+    background-image: url('../../../img/o2.jpg');
+    background-size: cover;
+    margin-left: 2rem;
+}
+
+.otext1{
+    margin-left: 4rem;
+}
+
+
+.otext .othead span{
+    color: rgb(73, 73, 229);
+}
+
+.otext .othead{
+    font-size: 2rem;
+}
+
+.otext .otbot{
+    margin-top: 2rem;
+    font-size: 1.4rem;
+    line-height: 1.8rem;
+}
+
+.otext  .otbut{
+    margin-top: 2rem;
+}
+
+.otext .otbut button{
+    padding: 1rem;
+    border-radius: 10px;
+    border: none;
+    background-color: #007bff;
+    color: white;
+}
+
+.otbot .ot{
+   display: flex;
+   align-items: center;
+   margin-top: 1.5rem;
+}
+
+.otbot .ot img{
+    width: 50px;
+}
+
+.otbot .ot .bprice{
+    margin-left: 1.5rem;
+}
+
+.otbot .ot .bprice p{
+    margin-top: 1rem;
+}
